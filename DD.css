@@ -1,0 +1,276 @@
+#comm {
+  width: 500px;
+  height: 100px;
+  border: 2px solid darkgray;
+  line-height: 1.5;
+  position: relative;
+  top: 100px;
+  z-index: 1;
+}
+
+#nwname {
+  font-family: serif;
+}
+
+.disable {
+  pointer-events: none;
+}
+
+#nwpost {
+  max-width: 490px;
+  word-break: break-word;
+}
+
+.hidden {
+  display: none;
+}
+
+#Tab {
+  width: 100%;
+  height: 30px;
+  text-align: left;
+  font-family: cursive;
+  font-size: 2rem;
+  font-weight: bolder;
+  position: fixed;
+  z-index: 2;
+  border: 0;
+}
+
+.unblur {
+  filter: blur(0);
+}
+
+#cls {
+  position: fixed;
+  left: 12px;
+  top: 256px;
+  width: 84px;
+}
+
+#pfl {
+  position: fixed;
+  background-color: whitesmoke;
+  top: 100px;
+  left: 30px;
+  width: 450px;
+  height: 350px;
+  border: 4px double;
+  z-index: 3;
+  border-radius: 20px;
+}
+
+#pref {
+  font-family: cursive;
+  font-weight: bold;
+  position: fixed;
+  z-index: 2;
+  top: 150px;
+  right: 50px;
+  width: 100px;
+  border-radius: 20px;
+}
+
+#kw {
+  border: 2px solid gray;
+  width: 400px;
+  background-color: white;
+  position: fixed;
+  z-index: 5;
+  top: 270px;
+  right: 30px;
+  height: 150px;
+}
+
+#pt {
+  line-height: 0.1px;
+  font-family: serif;
+}
+
+#kwb {
+  position: fixed;
+  top: 380px;
+  background-color: blue;
+  color: white;
+}
+
+#kwbn {
+  position: fixed;
+  right: 230px;
+  top: 380px;
+}
+
+#kwbn:active {
+  background-color: red;
+  color: white;
+}
+
+#kwb:active {
+  background-color: white;
+  color: blue;
+  border-color: blue;
+}
+
+#uname {
+  position: fixed;
+  font-size: 2rem;
+  top: 80px;
+  font-family: cursive;
+  left: 150px;
+}
+
+#upfl {
+  position: fixed;
+  top: 160px;
+  left: 150px;
+}
+
+#abt {
+  position: fixed;
+  top: 220px;
+  font-family: serif;
+  left: 190px;
+}
+
+#abtme {
+  position: fixed;
+  top: 250px;
+  border: 2px double gray;
+  left: 150px;
+  height: 150px;
+  border-radius: 20px;
+  width: 150px;
+}
+
+#lpref {
+  position: fixed;
+  top: 151px;
+  right: 50px;
+  border: 1px solid;
+  height: 200px;
+  border-radius: 20px;
+  width: 100px;
+}
+
+#cgi {
+  position: fixed;
+  font-family: cursive;
+  font-size: 1rem;
+  left: 100px;
+  width: 390px;
+  border: none;
+}
+
+#post {
+  z-index: 4;
+  position: fixed;
+  top: 250px;
+  border: 2px solid;
+  height: 150px;
+  background-color: whitesmoke;
+  width: 480px;
+}
+
+#add {
+  font-family: serif;
+  position: fixed;
+  right: 36px;
+  width: 80px;
+  top: 377px;
+}
+
+button:active {
+  color: blue;
+  border-color: blue;
+}
+
+#pstT {
+  position: fixed;
+  top: 270px;
+  left: 100px;
+  height: 100px;
+  width: 380px;
+}
+
+#pfp {
+  position: fixed;
+  top: 150px;
+  left: 50px;
+  border: 4px double;
+  width: 90px;
+  height: 100px;
+}
+
+#pst {
+  position: fixed;
+  top: 6px;
+  right: 60px;
+  width: 25px;
+  height: 25px;
+  font-weight: bolder;
+  font-family: serif;
+  z-index: 3;
+}
+
+#pst:active {
+  color: blue;
+  border-color: blue;
+}
+
+#inf {
+  position: fixed;
+  top: 10px;
+  right: 5px;
+  background-color: transparent;
+  z-index: 3;
+  border: none;
+}
+
+.blg {
+  filter: blur(5px);
+  z-index: 3;
+}
+
+#gl {
+  background-color: brown;
+  position: fixed;
+  color: white;
+  top: 100px;
+  z-index: 2;
+  right: 25px;
+  width: 40px;
+}
+
+#prf {
+  width: 25px;
+  height: 25px;
+  position: fixed;
+  top: 6px;
+  right: 30px;
+  z-index: 2;
+}
+
+#tgi {
+  text-align: center;
+  position: fixed;
+  width: 98px;
+  left: 43px;
+  font-family: cursive;
+  z-index: 2;
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+#int {
+  position: fixed;
+  top: 250px;
+  left: 40px;
+  width: 100px;
+  height: 150px;
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+.rdbrd {
+  border-color: red;
+}
